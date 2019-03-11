@@ -15,8 +15,6 @@ class Shop {
   }
 
   updateQuality() {
-    // this.items[0].sellIn = 9;
-    // this.items[0].quality = 19;
     this.items.forEach(function(item){
       if ( item.name === 'Sulfuras' ) { // Sulfuras
         // 长期有效
